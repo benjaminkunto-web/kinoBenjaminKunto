@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kino+ – Filmovi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../filmovi.css"/>
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">Kino+</a>
+    <ul>
+      <li><a href="#filmovi">Filmovi</a></li>
+      <li><a href="#raspored">Raspored</a></li>
+      <li><a href="#sala">Sala</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Trenutno u<br/><span>kinima</span></h1>
+    <p>Odaberite žanr i pronađite svoj film</p>
+  </section>
+
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-dot" style="background:var(--status-now); border:1px solid #ccc;"></div>
+      Trenutno u kinima
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot" style="background:var(--status-soon);"></div>
+      Uskoro u kinima
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot" style="background:var(--status-gone);"></div>
+      Više nije u ponudi
+    </div>
+  </div>
+
+  <section id="akcija" class="genre-section">
+    <div class="genre-header">
+      <h2>Akcija</h2>
+      <span class="genre-count">4 filma</span>
+    </div>
+    <div class="genre-bar"></div>
+    <div class="film-grid">
+
+      <div class="film-card status-now">
+        <span class="film-badge">U kinu</span>
+        <img class="film-poster" src="https://placehold.co/200x270/1a1a2e/e8c84a?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Mission: Impossible</div>
+          <div class="film-duration">⏱ 163 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-now">
+        <span class="film-badge">U kinu</span>
+        <img class="film-poster" src="https://placehold.co/200x270/1a2e1a/4ae8a0?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Fast & Furious X</div>
+          <div class="film-duration">⏱ 141 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-soon">
+        <span class="film-badge">Uskoro</span>
+        <img class="film-poster" src="https://placehold.co/200x270/2e1a1a/e84a4a?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Thunderbolts</div>
+          <div class="film-duration">⏱ 127 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-gone">
+        <span class="film-badge">Završeno</span>
+        <img class="film-poster" src="https://placehold.co/200x270/2a2a2a/888?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Aquaman 2</div>
+          <div class="film-duration">⏱ 124 min</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="drama" class="genre-section">
+    <div class="genre-header">
+      <h2>Drama</h2>
+      <span class="genre-count">3 filma</span>
+    </div>
+    <div class="genre-bar"></div>
+    <div class="film-grid">
+
+      <div class="film-card status-now">
+        <span class="film-badge">U kinu</span>
+        <img class="film-poster" src="https://placehold.co/200x270/1e1a2e/a04ae8?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Oppenheimer</div>
+          <div class="film-duration">⏱ 180 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-soon">
+        <span class="film-badge">Uskoro</span>
+        <img class="film-poster" src="https://placehold.co/200x270/1a2a2e/4ab0e8?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">The Brutalist</div>
+          <div class="film-duration">⏱ 215 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-gone">
+        <span class="film-badge">Završeno</span>
+        <img class="film-poster" src="https://placehold.co/200x270/252525/777?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Past Lives</div>
+          <div class="film-duration">⏱ 106 min</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="komedija" class="genre-section">
+    <div class="genre-header">
+      <h2>Komedija</h2>
+      <span class="genre-count">3 filma</span>
+    </div>
+    <div class="genre-bar"></div>
+    <div class="film-grid">
+
+      <div class="film-card status-now">
+        <span class="film-badge">U kinu</span>
+        <img class="film-poster" src="https://placehold.co/200x270/2e2a1a/e8b84a?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Anyone But You</div>
+          <div class="film-duration">⏱ 103 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-now">
+        <span class="film-badge">U kinu</span>
+        <img class="film-poster" src="https://placehold.co/200x270/1a2e2a/4ae8c8?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Strays</div>
+          <div class="film-duration">⏱ 93 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-gone">
+        <span class="film-badge">Završeno</span>
+        <img class="film-poster" src="https://placehold.co/200x270/242424/666?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Barbie</div>
+          <div class="film-duration">⏱ 114 min</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="animirani" class="genre-section">
+    <div class="genre-header">
+      <h2>Animirani</h2>
+      <span class="genre-count">3 filma</span>
+    </div>
+    <div class="genre-bar"></div>
+    <div class="film-grid">
+
+      <div class="film-card status-now">
+        <span class="film-badge">U kinu</span>
+        <img class="film-poster" src="https://placehold.co/200x270/1a1e2e/4a6ae8?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Inside Out 2</div>
+          <div class="film-duration">⏱ 100 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-soon">
+        <span class="film-badge">Uskoro</span>
+        <img class="film-poster" src="https://placehold.co/200x270/2e1a2a/e84ab0?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Moana 2</div>
+          <div class="film-duration">⏱ 100 min</div>
+        </div>
+      </div>
+
+      <div class="film-card status-gone">
+        <span class="film-badge">Završeno</span>
+        <img class="film-poster" src="https://placehold.co/200x270/222/555?text=FILM" alt="Poster">
+        <div class="film-info">
+          <div class="film-title">Elemental</div>
+          <div class="film-duration">⏱ 101 min</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2026 <span>Kino+</span> — Sva prava zadržana
+  </footer>
+
+</body>
+</html>
